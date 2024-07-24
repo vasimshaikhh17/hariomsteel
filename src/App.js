@@ -75,6 +75,8 @@ import SteelRoundBars from "./components/AllProducts/RoundBars/SteelRoundBars.js
 import ZincRoundBars from "./components/AllProducts/RoundBars/ZincRoundBars.jsx";
 import AluminiumRoundBars from "./components/AllProducts/RoundBars/AluminiumRoundBars.jsx";
 import Gallery from "./components/Gallery/Gallery.jsx";
+import Fastners from "./components/ProductComponent/NewFastners/Fastners.jsx";
+import Bolt from "./components/ProductComponent/NewFastners/Bolt.jsx";
 
 
 
@@ -194,6 +196,14 @@ const App = () => {
         <Route path="/aluminium-roundbars" element={<AluminiumRoundBars/>} />
 
         {/* ----------------------------------------Round Bars-------------------------------------- */}
+
+
+
+        {/* -------------------------------------------new fastners-------------------------------------------- */}
+        <Route path="/fastners" element={<Fastners/>} />
+        <Route path="/bolt" element={<Bolt/>} />
+
+        {/* -------------------------------------------new fastners-------------------------------------------- */}
       </Routes>
 
     </>

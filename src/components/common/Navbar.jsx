@@ -97,7 +97,7 @@ const Navbar = () => {
             </Link>
           </div>
           <div className="flex gap-5 items-center">
-            <ul className="lg:flex hidden uppercase items-center gap-8">
+            <ul className="lg:flex hidden uppercase items-center gap-1">
               {categories.map((category) => (
                 <div className="group relative" key={category._id}>
                   <NavLink

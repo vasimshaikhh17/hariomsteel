@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 
-import banner from "../../assets/images/banner.jpg";
-import banner1 from "../../assets/images/banner1.jpg";
-import banner2 from "../../assets/images/banner2.jpg";
-import banner3 from "../../assets/images/banner3.jpg";
+import banner from "../../assets/images/Pipe-Fitting-banner.png";
+import banner1 from "../../assets/images/banner32.jpg";
+import banner2 from "../../assets/images/steel-banner.jpg";
+import banner3 from "../../assets/images/pipes-banner.jpg";
 import banner4 from "../../assets/images/banner4.jpg";
 import banner5 from "../../assets/images/banner5.jpg";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";

@@ -10,7 +10,7 @@ const Gallery = () => {
   return (
     <Layout>
       <h2 className='text-center mb-4 text-3xl font-semibold'>Gallery</h2>
-      <div className='customContainer grid md:grid-cols-3 auto-rows-[250px] gap-4 my-10'>
+      <div className='customContainer grid md:grid-cols-3 auto-rows-[250px] gap-4 my-10 '>
         {productData.flatMap(product =>
           product.sub_sub_category.map((subProduct, i) => (
             <div
@@ -19,7 +19,7 @@ const Gallery = () => {
                 i === 1 || i === 1 || i === 2 || i === 1 ? 'md:col-span-2' : ''
               } ${i === 2 ? 'md:row-span-2' : ''}`}
             >
-              <Link to={subProduct?.page} className='w-full h-full'>
+              <Link to={subProduct?.page} className='w-full h-full mix-blend-multiply'>
                 <img
                   src={subProduct.prodImg}
                   alt={subProduct.title}

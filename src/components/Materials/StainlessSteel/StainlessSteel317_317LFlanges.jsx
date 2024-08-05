@@ -1,0 +1,985 @@
+import Layout from "../../common/Layout";
+import RelatedProducts from "../../ProductComponent/RelatedProducts";
+import MaterialGrade from "../MaterialGrade.jsx";
+import ssflanges from "../../../assets/newImages/ssflanges.jpeg";
+import AnimatedBars from "../AnimatedBars.jsx";
+
+const StainlessSteel317_317LFlanges = () => {
+  return (
+    <Layout>
+    <div>
+      <div className="text-fontDefault p-4 prod">
+        <div className="customContainer  text-fontDefault p-6 shadow-md rounded-md flex flex-col lg:flex-row">
+          <div className="lg:w-3/4 lg:pr-2">
+            <h1 className="text-xl md:text-3xl font-bold mb-4 ">
+            MANUFACTURER OF ASTM A182 F317 LAP JOINT FLANGES, SS 317L THREADED FLANGES, STAINLESS STEEL 317 SORF FLANGES, READY STOCK OF SS 317 FLANGES, 317L SS LONG WELD NECK FLANGES SUPPLIER
+            </h1>
+{/* 
+            <div className="lg:w-1/4 mt-8 lg:mt-0 sm:block md:hidden">
+              <img
+                src={ssflanges}
+                alt="Anchor Bolts"
+                className="w-full h-auto mb-6 rounded shadow-lg"
+              />
+            </div> */}
+
+            <div className="mb-6">
+              <p className="mb-2 text-justify">
+              Hariom Steel  is a recognised manufacturer and trader of SS 317 / 317L Flanges, whichare commonly utilized when selecting a stainless steel that must withstand corrosive conditions. Stainless Steel UNS S31700 Lap Joint Flanges is very resistant to corrosion caused by dry chlorine and hydrogen chloride gas. The product's controlled chemical composition restrictions are used in the nuclear industry to avoid the possibility of stress corrosion cracking caused by high purity water containing chloride ions. Stainless Steel WNR1.4449 Puddle Flanges is resistant to water corrosion and has a high mechanical strength. This alloy's composition is a face-centered-cubic solid solution with exceptional metallurgical stability. It forms a firmly adhering oxide scale that withstands even extreme heat cycling. The existence of this alloy may create some misunderstanding, especially as the names and formulae are almost identical.
+              </p>
+
+              <div className="mt-5 mb-5  flex items-center justify-center">
+                <img src={ssflanges} alt="" width={600} />
+              </div>
+
+                {/* specification */}
+                <h2 className="mb-4 mt-4 font-bold text-2xl">Stainless Steel 317/317L Flanges Specifications</h2>
+                                <div className="overflow-x-auto">
+                                <table>
+                                <tbody>                
+
+                                  <tr>
+
+                                  <th>Size Chart</th>
+
+                                  <td>1/2" (15 NB) to 48" (1200NB) DN10~DN5000</td>
+
+                                  </tr>
+
+                                  <tr>
+
+                                  <th>Standards</th>
+
+                                  <td>ANSI/ASME B16.5, B16.47 Series A &amp; B, B16.48, BS4504, BS 10, EN-1092, DIN, ANSI Flanges, ASME Flanges, BS Flanges, DIN Flanges, EN Flanges, GOST Flange, ASME/ANSI B16.5/16.36/16.47A/16.47B, MSS S44, ISO70051, JISB2220, BS1560-3.1, API7S-15, API7S-43, API605, EN1092</td>
+
+                                  </tr>
+
+                                  <tr>
+
+                                  <th>Pressure Rating</th>
+
+                                  <td>Class 150 LBS, 300 LBS, 600 LBS, 900 LBS, 1500 LBS, 2500 LBS</td>
+
+                                  </tr>
+
+                                  <tr>
+
+                                  <th>Pressure Calculation in DIN</th>
+
+                                  <td>6Bar 10Bar 16Bar 25Bar 40Bar / PN6 PN10 PN16 PN25 PN40, PN64</td>
+
+                                  </tr>
+
+                                  <tr>
+
+                                  <th>UNI</th>
+
+                                  <td>6Bar 10Bar 16Bar 25Bar 40Bar</td>
+
+                                  </tr>
+
+                                  <tr>
+
+                                  <th>EN</th>
+
+                                  <td>6Bar 10Bar 16Bar 25Bar 40Bar</td>
+
+                                  </tr>
+
+                                  <tr>
+
+                                  <th>Coating</th>
+
+                                  <td>Oil Black Paint, Anti-rust Paint, Zinc Plated, Yellow Transparent, Cold and Hot Dip Galvanized</td>
+
+                                  </tr>
+
+                                  <tr>
+
+                                  <th>Most common types</th>
+
+                                  <td>Forged / Threaded / Screwed / Plate</td>
+
+                                  </tr>
+
+                                  <tr>
+
+                                  <th>Test Certificates</th>
+
+                                  <td>EN 10204/3.1B<br />
+
+                                  Raw Materials Certificate<br />
+
+                                  100% Radiography Test Report<br />
+
+                                  Third Party Inspection Report, etc</td>
+
+                                  </tr>
+
+                                  <tr>
+
+                                  <th>Production Technique</th>
+
+                                  <td>Forged, Heat treated and machined</td>
+
+                                  </tr>
+
+                                  <tr>
+
+                                  <th>Connect Type/ Flange Face Type</th>
+
+                                  <td>Raised Face (RF), Ring Type Joint (RTJ), Flat Face (FF), Large Male-Female (LMF), Lap-Joint Face (LJF), Small Male-Female (SMF), Small Tongue, Large Tongue &amp; Groove, Groove</td>
+
+                                  </tr>
+
+                                  <tr>
+
+                                  <th>Special design</th>
+
+                                  <td><p>As per your drawing</p>
+
+                                  <p>AS, ANSI, BS, DIN and JIS<br />
+
+                                  15 NB (1/2") to 200 NB (8")<br />
+
+                                  Equal and Reducing Configurations</p></td>
+
+                                  </tr>
+
+                                  <tr>
+
+                                  <th>Test</th>
+
+                                  <td>Direct-reading Spectrograph, Hydrostatic testing machine, X-ray detector, UI trasonic flaw detector, Magnetic particle detector</td>
+
+                                  </tr>
+
+                                  <tr>
+
+                                  <th>Equipment</th>
+
+                                  <td>Press machine, Bending machine, Pushing Machine, electric bevelling machine, Sand-blasting machine etc</td>
+
+                                  </tr>
+
+                                  <tr>
+
+                                  <th>Manufacturer of</th>
+
+                                  <td><p>ANSI DIN, GOST, JIS, UNI, BS, AS2129, AWWA, EN, SABS, NFE etc.<br />
+
+                                  -BS Flange, EN Flange, API 6A Flange, ANSI Flange, ASME Flange, DIN Flange, EN1092-1 Flange, UNI Flange, JIS/ KS Flange, BS4504 Flange, GB Flange, AWWA C207 Flange, GOST Flange, PSI Flange</p>
+
+                                  <p>B.S: BS4504 , BS3293, BS1560, BS10<br />
+
+                                  AS 2129: Table D; Table E; Table H<br />
+
+                                  ANSI B16.5, ANSI B16.47 Series A &amp; B, MSS SP44, ASA, API-605, AWWA, Custom Drawings<br />
+
+                                  ANSI : ANSI B16.5, ANSI B16.47(API605), MSS SP44, ANSI B16.36, ANSI B16.48<br />
+
+                                  ANSI B16.5, ANSI B16.47, MSS SP44, ANSI B16.36, ANSI B16.48<br />
+
+                                  American standard (ANSI)<br />
+
+                                  German (DIN)<br />
+
+                                  British standard (BS)</p>
+
+                                  DIN: DIN 2527, DIN 2566, DIN 2573, DIN 2576, DIN 2641, DIN 2642, DIN 2655, DIN 2656, DIN 2627, DIN 2628, DIN 2629, DIN  2631, DIN 2632, DIN 2633, DIN 2634, DIN 2635, DIN 2636, DIN 2637, DIN 2638 ASTM A182 F317/317L Stainless Steel Flanges<br />
+
+                                  The other standard: AWWA C207; EN1092-1, GOST12820, JIS B2220; KS B1503, SABS1123; NFE29203; UNI2276<br />
+
+                                  </td>
+
+                                  </tr>
+
+                                  </tbody>
+                                </table>
+                                </div><br />
+                                <h2 className="mb-4 mt-4 font-bold text-2xl">SS 317/317L Flanges Equivalent Grades</h2>
+                        <div className="overflow-x-auto">
+                        <table>
+                        <tbody><tr  className="bg-primary text-white"><td><strong>STANDARD</strong></td><td><strong>UNS </strong></td><td><strong>WERKSTOFF NR.</strong></td><td><strong>AFNOR</strong></td><td><strong>EN</strong></td><td><strong>JIS</strong></td><td><strong>BS</strong></td><td><strong>GOST</strong></td></tr><tr><td><strong>SS 317</strong></td><td>S31700</td><td>1.4449</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td><strong>SS 317L</strong></td><td>S31703</td><td>1.4438</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr></tbody>
+                        </table>
+                        </div><br />
+                        
+                        <h2 className="mb-4 mt-4 font-bold text-2xl">Stainless Steel 317/317L Flanges Chemical Composition</h2>
+                        <div className="overflow-x-auto">
+                        <table>
+                        <tbody><tr  className="bg-primary text-white"><td><strong>STANDARD</strong></td><td><strong>C </strong></td><td><strong>MN</strong></td><td><strong>SI</strong></td><td><strong>P</strong></td><td><strong>S</strong></td><td><strong>CR</strong></td><td><strong>NI</strong></td><td><strong>MO</strong></td><td><strong>N</strong></td></tr><tr><td><strong>SS 317</strong></td><td>0.08 max.</td><td>2.00 max.</td><td>1.00 max.</td><td>0.045 max.</td><td>0.03 Max.</td><td>18.0 - 20.0</td><td>11.0 - 14.0</td><td>3.0 - 4.0</td><td>-</td></tr><tr><td><strong>SS 317L</strong></td><td>0.03 max.</td><td>2.00 max.</td><td>0.75  max.</td><td>0.045 max.</td><td>0.03 max.</td><td>18.0 - 20.0</td><td>11.0 - 15.0</td><td>3.0 - 4.0</td><td>0.1</td></tr></tbody>
+                        </table>
+                        </div><br />
+
+                        <h2 className="mb-4 mt-4 font-bold text-2xl">317/317L Stainless Steel Flanges Mechanical Properties</h2>
+                        <div className="overflow-x-auto">
+                        <table>
+                        <tbody><tr  className="bg-primary text-white"><td rowSpan="2"><strong>Grade</strong><p></p></td><td rowSpan="2"><strong>Tensile Strength (MPa)    min</strong></td><td rowSpan="2"><strong>Yield Strength 0.2%    Proof (MPa) min</strong></td><td rowSpan="2"><strong>Elongation (% in 50mm)    min</strong></td><td colSpan="2"><strong>Hardness</strong></td></tr><tr  className="bg-primary text-white"><td><strong>Rockwell B (HR B) max</strong></td><td><strong>Brinell (HB) max</strong></td></tr><tr><td><strong>317/317L</strong></td><td>515</td><td>205</td><td>40</td><td>95</td><td>217</td></tr></tbody>
+                        </table>
+                        </div><br />      <h2 className="mb-4 mt-4 font-bold text-2xl">Weight Chart Of Stainless Steel 317/317L Flanges</h2> 
+            <div className="overflow-x-auto">
+            <table>
+                <tbody>
+
+                  <tr  className="bg-primary text-white">
+
+                  <th colSpan="2">Pipe Normal Diam.</th>
+
+                  <th>O.D. Flange&nbsp;</th>
+
+                  <th>Thk. Of Flange Min&nbsp;</th>
+
+                  <th>Diam.<br />
+
+                  of<br />
+
+                  Hub&nbsp;</th>
+
+                  <th>Diameter of Raised Face&nbsp;</th>
+
+                  <th>Length Hub.Y</th>
+
+                  <th>Thread Length</th>
+
+                  <th>Diam.&nbsp;<br />
+
+                  of Bolt<br />
+
+                  Circle</th>
+
+                  <th>Diam.&nbsp;<br />
+
+                  of Bolt<br />
+
+                  Holes</th>
+
+                  <th>Number<br />
+
+                  of Bolts</th>
+
+                  <th>Diam. of<br />
+
+                  Bolts<br />
+
+                  (inch)</th>
+
+                  <th>KG</th>
+
+                  <th>LB</th>
+
+                  </tr>
+
+                  <tr  className="bg-primary text-white">
+
+                  <td>inch</td>
+
+                  <td>dn</td>
+
+                  <td>O</td>
+
+                  <td>C</td>
+
+                  <td>X</td>
+
+                  <td>G</td>
+
+                  <td>Y</td>
+
+                  <td>T</td>
+
+                  <td>BC</td>
+
+                  <td>BH</td>
+
+                  <td>BN</td>
+
+                  <td>BD</td>
+
+                  <td></td>
+
+                  <td></td>
+
+                  </tr>
+
+                  <tr>
+
+                  <td>1/2"</td>
+
+                  <td>15</td>
+
+                  <td>89.00</td>
+
+                  <td>11.20</td>
+
+                  <td>30.20</td>
+
+                  <td>35.10</td>
+
+                  <td>15.70</td>
+
+                  <td>15.70</td>
+
+                  <td>60.50</td>
+
+                  <td>15.80</td>
+
+                  <td>4</td>
+
+                  <td>1/2"</td>
+
+                  <td>0.4</td>
+
+                  <td>0.9</td>
+
+                  </tr>
+
+                  <tr>
+
+                  <td>3/4"</td>
+
+                  <td>20</td>
+
+                  <td>98.50</td>
+
+                  <td>12.70</td>
+
+                  <td>38.10</td>
+
+                  <td>42.90</td>
+
+                  <td>15.70</td>
+
+                  <td>15.70</td>
+
+                  <td>69.90</td>
+
+                  <td>15.80</td>
+
+                  <td>4</td>
+
+                  <td>1/2"</td>
+
+                  <td>0.7</td>
+
+                  <td>1.5</td>
+
+                  </tr>
+
+                  <tr>
+
+                  <td>1"</td>
+
+                  <td>25</td>
+
+                  <td>108.00</td>
+
+                  <td>14.20</td>
+
+                  <td>49.30</td>
+
+                  <td>50.80</td>
+
+                  <td>17.50</td>
+
+                  <td>17.50</td>
+
+                  <td>79.30</td>
+
+                  <td>15.80</td>
+
+                  <td>4</td>
+
+                  <td>1/2"</td>
+
+                  <td>0.8</td>
+
+                  <td>1.8</td>
+
+                  </tr>
+
+                  <tr>
+
+                  <td>1-1/4"</td>
+
+                  <td>32</td>
+
+                  <td>117.50</td>
+
+                  <td>15.70</td>
+
+                  <td>58.70</td>
+
+                  <td>63.50</td>
+
+                  <td>20.60</td>
+
+                  <td>20.60</td>
+
+                  <td>88.90</td>
+
+                  <td>15.80</td>
+
+                  <td>4</td>
+
+                  <td>1/2"</td>
+
+                  <td>1.2</td>
+
+                  <td>2.6</td>
+
+                  </tr>
+
+                  <tr>
+
+                  <td>1-1/2"</td>
+
+                  <td>40</td>
+
+                  <td>127.00</td>
+
+                  <td>17.50</td>
+
+                  <td>65.00</td>
+
+                  <td>73.20</td>
+
+                  <td>22.40</td>
+
+                  <td>22.40</td>
+
+                  <td>98.60</td>
+
+                  <td>15.80</td>
+
+                  <td>4</td>
+
+                  <td>1/2"</td>
+
+                  <td>1.5</td>
+
+                  <td>3.3</td>
+
+                  </tr>
+
+                  <tr>
+
+                  <td>2"</td>
+
+                  <td>50</td>
+
+                  <td>152.50</td>
+
+                  <td>19.10</td>
+
+                  <td>77.70</td>
+
+                  <td>91.90</td>
+
+                  <td>25.40</td>
+
+                  <td>25.40</td>
+
+                  <td>120.70</td>
+
+                  <td>19.10</td>
+
+                  <td>4</td>
+
+                  <td>5/8"</td>
+
+                  <td>2.3</td>
+
+                  <td>5.1</td>
+
+                  </tr>
+
+                  <tr>
+
+                  <td>2-1/2"</td>
+
+                  <td>65</td>
+
+                  <td>178.00</td>
+
+                  <td>22.40</td>
+
+                  <td>90.40</td>
+
+                  <td>104.60</td>
+
+                  <td>28.40</td>
+
+                  <td>28.40</td>
+
+                  <td>139.70</td>
+
+                  <td>19.10</td>
+
+                  <td>4</td>
+
+                  <td>5/8"</td>
+
+                  <td>3.7</td>
+
+                  <td>8.1</td>
+
+                  </tr>
+
+                  <tr>
+
+                  <td>3"</td>
+
+                  <td>80</td>
+
+                  <td>190.50</td>
+
+                  <td>23.90</td>
+
+                  <td>108.00</td>
+
+                  <td>127.00</td>
+
+                  <td>30.20</td>
+
+                  <td>30.20</td>
+
+                  <td>152.40</td>
+
+                  <td>19.10</td>
+
+                  <td>4</td>
+
+                  <td>5/8"</td>
+
+                  <td>4.1</td>
+
+                  <td>9</td>
+
+                  </tr>
+
+                  <tr>
+
+                  <td>3-1/2"</td>
+
+                  <td>90</td>
+
+                  <td>216.00</td>
+
+                  <td>23.90</td>
+
+                  <td>122.20</td>
+
+                  <td>139.70</td>
+
+                  <td>31.80</td>
+
+                  <td>31.80</td>
+
+                  <td>177.80</td>
+
+                  <td>19.10</td>
+
+                  <td>8</td>
+
+                  <td>5/8"</td>
+
+                  <td>5.1</td>
+
+                  <td>11.2</td>
+
+                  </tr>
+
+                  <tr>
+
+                  <td>4"</td>
+
+                  <td>100</td>
+
+                  <td>228.50</td>
+
+                  <td>23.90</td>
+
+                  <td>134.90</td>
+
+                  <td>157.20</td>
+
+                  <td>33.30</td>
+
+                  <td>33.30</td>
+
+                  <td>190.50</td>
+
+                  <td>19.10</td>
+
+                  <td>8</td>
+
+                  <td>5/8"</td>
+
+                  <td>5.9</td>
+
+                  <td>13</td>
+
+                  </tr>
+
+                  <tr>
+
+                  <td>5"</td>
+
+                  <td>125</td>
+
+                  <td>254.00</td>
+
+                  <td>23.90</td>
+
+
+
+                  <td>163.60</td>
+
+                  <td>185.70</td>
+
+                  <td>36.60</td>
+
+                  <td>36.60</td>
+
+                  <td>215.90</td>
+
+                  <td>22.40</td>
+
+                  <td>8</td>
+
+                  <td>3/4"</td>
+
+                  <td>7</td>
+
+                  <td>15.4</td>
+
+                  </tr>
+
+                  <tr>
+
+                  <td>6"</td>
+
+                  <td>150</td>
+
+                  <td>279.50</td>
+
+                  <td>25.40</td>
+
+                  <td>192.00</td>
+
+                  <td>215.90</td>
+
+                  <td>39.60</td>
+
+                  <td>39.60</td>
+
+                  <td>241.30</td>
+
+                  <td>22.40</td>
+
+                  <td>8</td>
+
+                  <td>3/4"</td>
+
+                  <td>8.4</td>
+
+                  <td>18.5</td>
+
+                  </tr>
+
+                  <tr>
+
+                  <td>8"</td>
+
+                  <td>200</td>
+
+                  <td>343.00</td>
+
+                  <td>28.40</td>
+
+                  <td>246.10</td>
+
+                  <td>269.70</td>
+
+                  <td>44.50</td>
+
+                  <td>44.50</td>
+
+                  <td>298.50</td>
+
+                  <td>22.40</td>
+
+                  <td>8</td>
+
+                  <td>3/4"</td>
+
+                  <td>13</td>
+
+                  <td>28.6</td>
+
+                  </tr>
+
+                  <tr>
+
+                  <td>10"</td>
+
+                  <td>250</td>
+
+                  <td>406.50</td>
+
+                  <td>30.20</td>
+
+                  <td>304.80</td>
+
+                  <td>323.90</td>
+
+                  <td>49.30</td>
+
+                  <td>49.30</td>
+
+                  <td>362.00</td>
+
+                  <td>25.40</td>
+
+                  <td>12</td>
+
+                  <td>7/8"</td>
+
+                  <td>18</td>
+
+                  <td>39.5</td>
+
+                  </tr>
+
+                  <tr>
+
+                  <td>12"</td>
+
+                  <td>300</td>
+
+                  <td>482.50</td>
+
+                  <td>31.80</td>
+
+                  <td>365.30</td>
+
+                  <td>381.00</td>
+
+                  <td>55.60</td>
+
+                  <td>55.60</td>
+
+                  <td>431.80</td>
+
+                  <td>25.40</td>
+
+                  <td>12</td>
+
+                  <td>7/8"</td>
+
+                  <td>29</td>
+
+                  <td>64</td>
+
+                  </tr>
+
+                  <tr>
+
+                  <td>14"</td>
+
+                  <td>350</td>
+
+                  <td>533.50</td>
+
+                  <td>35.10</td>
+
+                  <td>400.10</td>
+
+                  <td>412.80</td>
+
+                  <td>57.20</td>
+
+                  <td>57.20</td>
+
+                  <td>476.30</td>
+
+                  <td>28.50</td>
+
+                  <td>12</td>
+
+                  <td>1"</td>
+
+                  <td>39</td>
+
+                  <td>86</td>
+
+                  </tr>
+
+                  <tr>
+
+                  <td>16"</td>
+
+                  <td>400</td>
+
+                  <td>597.00</td>
+
+                  <td>36.60</td>
+
+                  <td>457.20</td>
+
+                  <td>469.90</td>
+
+                  <td>63.50</td>
+
+                  <td>63.50</td>
+
+                  <td>539.80</td>
+
+                  <td>28.50</td>
+
+                  <td>16</td>
+
+                  <td>1"</td>
+
+                  <td>47</td>
+
+                  <td>103</td>
+
+                  </tr>
+
+                  <tr>
+
+                  <td>18"</td>
+
+                  <td>450</td>
+
+                  <td>635.00</td>
+
+                  <td>39.60</td>
+
+                  <td>505.00</td>
+
+                  <td>533.40</td>
+
+                  <td>68.30</td>
+
+                  <td>68.30</td>
+
+                  <td>577.90</td>
+
+                  <td>31.80</td>
+
+                  <td>16</td>
+
+                  <td>1 1/8"</td>
+
+                  <td>57</td>
+
+                  <td>126</td>
+
+                  </tr>
+
+                  <tr>
+
+                  <td>20"</td>
+
+                  <td>500</td>
+
+                  <td>698.50</td>
+
+                  <td>42.90</td>
+
+                  <td>558.80</td>
+
+                  <td>584.20</td>
+
+                  <td>73.20</td>
+
+                  <td>73.20</td>
+
+                  <td>635.00</td>
+
+                  <td>31.80</td>
+
+                  <td>20</td>
+
+                  <td>1 1/8"</td>
+
+                  <td>76</td>
+
+                  <td>167</td>
+
+                  </tr>
+
+                  <tr>
+
+                  <td>24"</td>
+
+                  <td>600</td>
+
+                  <td>813.00</td>
+
+                  <td>47.80</td>
+
+                  <td>663.40</td>
+
+                  <td>692.20</td>
+
+                  <td>82.60</td>
+
+                  <td>82.60</td>
+
+                  <td>749.30</td>
+
+                  <td>35.10</td>
+
+                  <td>20</td>
+
+                  <td>1 1/4"</td>
+
+                  <td>97</td>
+
+                  <td>214</td>
+
+                  </tr>
+
+                  </tbody>
+            </table>
+            </div><br />
+                {/* chemical composition */}
+                {/* mechnical property */}
+                {/* weight chart */}
+                {/* dimensionchart */}
+            
+
+            
+
+            
+
+           
+
+              <div>
+                <h3 className="text-xl font-semibold mb-4">Applications:</h3>
+
+                <AnimatedBars />
+              </div>
+            </div>
+          </div>
+          {/* ------------ */}
+          <div className="lg:w-1/4 mt-8 lg:mt-0 hidden sm:block">
+            <img
+              src={ssflanges}
+              alt="Anchor Bolts"
+              className="w-full h-auto mb-6 rounded shadow-lg"
+            />
+            <MaterialGrade />
+            <RelatedProducts />
+          </div>
+        </div>
+      </div>
+    </div>
+  </Layout>
+  )
+}
+
+export default StainlessSteel317_317LFlanges

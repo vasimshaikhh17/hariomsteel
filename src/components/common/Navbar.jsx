@@ -91,13 +91,14 @@ const Navbar = () => {
           <div className="hidden lg:inline-flex items-center">
             <Link to={"/"} className="hidden lg:inline-flex items-center">
               <img src={logo} alt="Logo" width={50} />
-              <span className="text-tertiary text-2xl font-bold fade-up uppercase">
-                Hariom Steel
+              <span className="text-2xl font-bold fade-up uppercase">
+                <span className="text-primary">Hariom</span> <span className="text-tertiary">Steel</span>
+           
               </span>
             </Link>
           </div>
           <div className="flex gap-5 items-center">
-            <ul className="lg:flex hidden uppercase items-center gap-1">
+            <ul className="lg:flex hidden uppercase items-center gap-8">
               {categories.map((category) => (
                 <div className="group relative" key={category._id}>
                   <NavLink
@@ -138,10 +139,10 @@ const Navbar = () => {
                                     subcat.sub_sub_category.length > 0 && (
                                       <IoIosArrowForward className="arrow-icon transition-transform duration-300 ease-in-out group-sub-hover:rotate-90" />
                                     )}
-                                </div>
+                                </div> 
                               </div>
                             </NavLink>
-                            {subcat.sub_sub_category && (
+                          {subcat.sub_sub_category && (
                               <div className="absolute left-full top-0 w-48 hidden group-sub-hover:block transition-all duration-300 ease-in-out opacity-0 group-sub-hover:opacity-100 bg-secondary ">
                                 {subcat.sub_sub_category.map((subSubCat) => (
                                   <NavLink
@@ -159,7 +160,7 @@ const Navbar = () => {
                                   </NavLink>
                                 ))}
                               </div>
-                            )}
+                            )} 
                           </div>
                         ))}
                       </div>
@@ -247,7 +248,7 @@ const Navbar = () => {
                   <div className="pl-5">
                     {category.sub_category.map((subcat, subIndex) => (
                       <div key={subcat._id}>
-                        <div className="flex justify-between items-center mt-2 mx-6">
+                        <div className="flex justify-between items-center mt-2 mx-9">
                           <div className="flex items-center justify-start">
                             <NavLink
                               to={subcat.page}

@@ -11,13 +11,13 @@ const CopperPlates = () => {
         <Layout>
             <div>
                 <div className="text-fontDefault p-4 prod">
-                    <div className="max-w-6xl mx-auto text-fontDefault p-6 shadow-md rounded-md flex flex-col lg:flex-row">
-                        <div className="lg:w-2/3 lg:pr-6">
+                    <div className="customContainer text-fontDefault p-6 shadow-md rounded-md flex flex-col lg:flex-row">
+                        <div className="lg:w-3/4 lg:pr-6">
                             <h1 className="text-3xl font-bold mb-4">
                                 Copper Plates
                             </h1>
 
-                            <div className="lg:w-1/3 mt-8 lg:mt-0 sm:block md:hidden">
+                            <div className="lg:w-1/4 mt-8 lg:mt-0 sm:block md:hidden">
                                 <img
                                     src={copperPlates}
                                     alt="Copper Plates"
@@ -118,7 +118,7 @@ const CopperPlates = () => {
 
                         </div>
 
-                        <div className="lg:w-1/3 mt-8 lg:mt-0 md:block hidden">
+                        <div className="lg:w-1/4 mt-8 lg:mt-0 md:block hidden">
                             <img
                                 src={copperPlates}
                                 alt="Copper Plates"
@@ -132,7 +132,7 @@ const CopperPlates = () => {
                 </div>
 
                 <div className="parallax-section bg-cover bg-fixed bg-center py-12">
-                    <div className="max-w-6xl mx-auto text-black p-6 ">
+                    <div className="customContainer text-black p-6 ">
                         <div className="mb-6 text-center text-fontPrimary">
                             <h2
                                 className="text-xl font-semibold mb-2"

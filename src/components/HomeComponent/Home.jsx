@@ -5,6 +5,8 @@ import ProjectCounter from "./ProjectCounter";
 import AboutCompany from "./AboutCompany";
 import ProductCards from "./ProductCards";
 import Testimonials from "./Testimonials";
+import Material from "./Material";
+
 
 const Home = () => {
   return (
@@ -12,10 +14,15 @@ const Home = () => {
       <ImageSlider />
       <AboutCompany />
       <ProjectCounter />
+      <Material/>
       <ProductCards />
       <Testimonials />
+
     </Layout>
   );
 };
 
 export default Home;
+
+
+

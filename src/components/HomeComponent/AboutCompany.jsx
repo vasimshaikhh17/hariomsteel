@@ -6,6 +6,7 @@ import factory from "../../assets/images/aboutcompany.jpeg";
 import { FaCheck } from "react-icons/fa6";
 import { useNavigate } from "react-router-dom";
 
+
 const AboutCompany = () => {
   const navigate = useNavigate();
   return (
@@ -82,6 +83,7 @@ const AboutCompany = () => {
           </div>
         </div>
       </div>
+
     </>
   );
 };

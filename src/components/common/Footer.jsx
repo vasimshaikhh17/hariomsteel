@@ -55,15 +55,20 @@ const Footer = () => {
               </li>
 
               {categories?.map((cat1) =>
-                cat1?.sub_category?.map((subcat) => (
-                  <li
-                    key={subcat._id}
-                    className="md:my-4  my-2 list-none hover:text-tertiary  w-fit"
-                  >
-                    <Link to={subcat?.page}>{subcat?.title}</Link>
-                  </li>
-                ))
-              )}
+  cat1?.sub_category
+    ?.filter((subcat) =>
+      ["Fittings", "Flanges", "Fasteners", "Gaskets", "Pipes/Tubes", "Plates", "Round Bars"].includes(subcat.title)
+    )
+    .map((subcat) => (
+      <li
+        key={subcat._id}
+        className="md:my-4 my-2 list-none hover:text-tertiary w-fit"
+      >
+        <Link to={subcat?.page}>{subcat?.title}</Link>
+      </li>
+    ))
+)}
+
               <li className="md:my-4  my-2 list-none"></li>
             </div>
             <div className="mb-4 md:mb-0">

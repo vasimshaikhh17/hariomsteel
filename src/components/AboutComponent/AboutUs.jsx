@@ -7,7 +7,7 @@ import {
   FaClock,
   FaTag,
 } from "react-icons/fa"; // Importing icons from react-icons
-import ab1 from "../../assets/images/banner12.cms";
+import ab1 from "../../assets/images/aboutus.jpg";
 import gst from "../../assets/images/HARIOM_GST-pages.webp";
 import Layout from "../common/Layout";
 

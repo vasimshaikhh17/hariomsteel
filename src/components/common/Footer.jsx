@@ -102,8 +102,8 @@ const Footer = () => {
 
             <h6 className="text-center flex flex-wrap items-center justify-center mt-2 md:mt-0">
               Powered By -&nbsp;
-              <a href="https://www.bytefaze.com/" className="hover:text-tertiary">ByteFaze Web Solutions </a> &nbsp;| &nbsp;
-              <a href="https://www.bytefaze.com/website-designing/" className="hover:text-tertiary"> Website Designing Company</a>
+              <a href="https://www.bytefaze.com/" target="_blank" rel="noopener" className="hover:text-tertiary">ByteFaze Web Solutions </a> &nbsp;| &nbsp;
+              <a href="https://www.bytefaze.com/website-designing/" target="_blank" rel="noopener" className="hover:text-tertiary"> Website Designing Company</a>
              
             </h6>
           </div>

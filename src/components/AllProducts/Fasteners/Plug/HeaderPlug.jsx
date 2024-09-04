@@ -282,18 +282,19 @@ const HeaderPlug = () => {
               <br />
 
               <div className="mb-8">
-                <h3 className="text-xl font-semibold mb-4">
-                  Hex Nut Applications:
-                </h3>
-                <ul className="list-disc list-inside">
-                  <li>Construction of frameworks and structural assemblies</li>
-                  <li>Machinery and equipment assembly</li>
-                  <li>Automotive parts and repairs</li>
-                  <li>Furniture assembly and DIY projects</li>
-                  <li>Home and industrial repairs</li>
-                  <li>Heavy-duty applications in machinery</li>
-                </ul>
-              </div>
+  <h3 className="text-xl font-semibold mb-4">
+    Header Plug Applications:
+  </h3>
+  <ul className="list-disc list-inside">
+    <li>Sealing and securing openings in pipes and fittings</li>
+    <li>Preventing leaks in hydraulic and pneumatic systems</li>
+    <li>Protecting components during transport and storage</li>
+    <li>Temporary or permanent closure of unused ports or connections</li>
+    <li>Used in construction, plumbing, and automotive industries</li>
+    <li>Ensuring safety and reliability in high-pressure environments</li>
+  </ul>
+</div>
+
             </div>
             <div className="lg:w-1/4 mt-8 lg:mt-0 hidden sm:block">
               <img

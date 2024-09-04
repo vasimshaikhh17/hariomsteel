@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.7a5d8e9e.css",
-    "main.js": "/static/js/main.8215d782.js",
+    "main.css": "/static/css/main.a0d2cd01.css",
+    "main.js": "/static/js/main.4758ecac.js",
     "static/js/453.ae259eaa.chunk.js": "/static/js/453.ae259eaa.chunk.js",
     "static/media/headingimage.png": "/static/media/headingimage.dfc269dd61bf2978ec77.png",
     "static/media/footerbg.png": "/static/media/footerbg.aaf502052933f100abf0.png",
+    "static/media/banner22.jpg": "/static/media/banner22.ff1c85cd25eec8051db8.jpg",
     "static/media/contactbg.png": "/static/media/contactbg.bf9fb7d31b0122e7c844.png",
     "static/media/Composite Round Bars.jpg": "/static/media/Composite Round Bars.61ca34f5643f1f02215b.jpg",
     "static/media/fastners.png": "/static/media/fastners.26ffd698e1180080ebe5.png",
@@ -14,18 +15,15 @@
     "static/media/45degreeelbow.webp": "/static/media/45degreeelbow.b685cb0a2f4d828bc92e.webp",
     "static/media/slipon.png": "/static/media/slipon.3b642af457747e10405c.png",
     "static/media/alloyflanges.png": "/static/media/alloyflanges.c174193ef0052b104bf7.png",
-    "static/media/steel-banner.jpg": "/static/media/steel-banner.76241b46560672895344.jpg",
     "static/media/gaskates.png": "/static/media/gaskates.52e33f452ee7404630f2.png",
     "static/media/soft-iron-gaskset.png": "/static/media/soft-iron-gaskset.7c4f62e072f1965b4b09.png",
     "static/media/foundationDim.jpg": "/static/media/foundationDim.db277c68b6313fc426e0.jpg",
     "static/media/exoticflanges.png": "/static/media/exoticflanges.f5417eac4f3be84fb99a.png",
     "static/media/reducing flange.png": "/static/media/reducing flange.31898678142717b4ada7.png",
-    "static/media/banner12.cms": "/static/media/banner12.850dc0bdfbc9d0ea6a7c.cms",
     "static/media/plates.png": "/static/media/plates.d1f171e57cc6ef3e3935.png",
     "static/media/pipetubefitting.png": "/static/media/pipetubefitting.51743ce14555de8288bb.png",
     "static/media/Pipe-Fitting-banner.png": "/static/media/Pipe-Fitting-banner.8f24ca14e6760812fc08.png",
     "static/media/VALVES.jpg": "/static/media/VALVES.fbc346d0a513e4936e7c.jpg",
-    "static/media/aboutcompany.jpeg": "/static/media/aboutcompany.95723e288b78c265b3cd.jpeg",
     "static/media/TUBE TEE.jpg": "/static/media/TUBE TEE.6172970036b4c99ac183.jpg",
     "static/media/swg.jpg": "/static/media/swg.bb28ec55071713ccb0ad.jpg",
     "static/media/foundationbolt.jpg": "/static/media/foundationbolt.a4ca436e580fef982500.jpg",
@@ -40,6 +38,7 @@
     "static/media/pipes-banner.jpg": "/static/media/pipes-banner.3e129367d524f2275ca4.jpg",
     "static/media/pipes.png": "/static/media/pipes.58dd42c02fbe94390f9c.png",
     "static/media/flanges.png": "/static/media/flanges.1da62573de7a846cd0c4.png",
+    "static/media/aboutus.jpg": "/static/media/aboutus.299db6401e1bf90d9e79.jpg",
     "static/media/banner4.jpg": "/static/media/banner4.1981ff07db20066d7fa9.jpg",
     "static/media/factory.jpg": "/static/media/factory.af3a3ff3623b4a8efd97.jpg",
     "static/media/Logo.png": "/static/media/Logo.d78ddae4381b1a00e0ac.png",
@@ -111,6 +110,7 @@
     "static/media/Titanium Pipes.jpg": "/static/media/Titanium Pipes.d96e8cf5c53d2fc28b06.jpg",
     "static/media/duplex-steel-gasket.jpg": "/static/media/duplex-steel-gasket.0e2e24641482a8e1da08.jpg",
     "static/media/monel-gasket.jpg": "/static/media/monel-gasket.73684a07b6ff716a7cb9.jpg",
+    "static/media/about.webp": "/static/media/about.57cbd30ac73e6d68e4e0.webp",
     "static/media/degree45diagram.jpg": "/static/media/degree45diagram.4ea2a4ea4f0b6074cff4.jpg",
     "static/media/monel-pipe-fittings.jpg": "/static/media/monel-pipe-fittings.3fa6efdd8e3939844aef.jpg",
     "static/media/ssfitting.jpg": "/static/media/ssfitting.95aa0f8d98c321eed1b7.jpg",
@@ -180,12 +180,12 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "index.html": "/index.html",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.7a5d8e9e.css.map": "/static/css/main.7a5d8e9e.css.map",
-    "main.8215d782.js.map": "/static/js/main.8215d782.js.map",
+    "main.a0d2cd01.css.map": "/static/css/main.a0d2cd01.css.map",
+    "main.4758ecac.js.map": "/static/js/main.4758ecac.js.map",
     "453.ae259eaa.chunk.js.map": "/static/js/453.ae259eaa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a5d8e9e.css",
-    "static/js/main.8215d782.js"
+    "static/css/main.a0d2cd01.css",
+    "static/js/main.4758ecac.js"
   ]
 }

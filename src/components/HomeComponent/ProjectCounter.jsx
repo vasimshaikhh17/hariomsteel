@@ -12,7 +12,7 @@ const ProjectCounter = () => {
 
   useEffect(() => {
     const targets = [
-      { key: "starsCount", count: 60, suffix: "+" },
+      { key: "starsCount", count: 24, suffix: "" },
       { key: "downloadsCount", count: 238, suffix: "+" },
       { key: "sponsorsCount", count: 1, suffix: "+" },
       { key: "products", count: 100, suffix: "+" },

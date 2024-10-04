@@ -4,7 +4,7 @@ import { Tilt } from "react-tilt";
 // import factory from "../../assets/images/aboutcompany.jpeg";
 import factory from "../../assets/images/about.webp";
 
-import { FaCheck } from "react-icons/fa6";
+// import { FaCheck } from "react-icons/fa6";
 import { useNavigate } from "react-router-dom";
 
 const AboutCompany = () => {

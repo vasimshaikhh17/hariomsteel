@@ -7,7 +7,6 @@ import factory from "../../assets/images/about.webp";
 import { FaCheck } from "react-icons/fa6";
 import { useNavigate } from "react-router-dom";
 
-
 const AboutCompany = () => {
   const navigate = useNavigate();
   return (
@@ -23,20 +22,45 @@ const AboutCompany = () => {
               About Us
             </h1>
             <p
-              className="text-fontDefault mb-6"
+              className="text-fontDefault mb-6 text-justify"
               data-aos="fade-up"
               data-aos-duration="1000"
             >
-              Our company is dedicated to providing top-quality industrial products that meet the rigorous demands of various industries. With a commitment to excellence and innovation, we offer a comprehensive range of products including pipes, tubes, flanges, fittings, fasteners, plates, gaskets, and round bars.
+              We manufacture high tensile bolts & fasteners in bigger diameter
+              bolt nuts & HV grade hot dip galvanized fasteners, We are the
+              biggest manufacturer in India for bigger diameter bolts & nuts in
+              high tensile and stainless steel grade and fasteners to major
+              contractors and consultants undertaking these projects in India,
+              USA, Europe, Asia, Africa and middle east regions in power
+              renewable energy, wind & infrastructure division. We are also
+              specialized manufacturers for stainless steel Bolts, nuts, Stud
+              Bolts and washers which are used in water treatment, sewage
+              treatment, waste water treatment and desalination plants. We
+              specialize in manufacturing and exporting high Tensile Bolts &
+              Fasteners in 8.8,10.9,12.9 grades and stainless steel
+              A4-80,A4-70,A4,B8,B8M,GR8,304,316,310,321,410 Special Steel like
+              Hastelloy, Inconel, Monel, Alloy 20,Titanium,Nitronic, & Duplex
+              Steel
             </p>
             <p
-              className="text-fontDefault mb-6"
+              className="text-fontDefault mb-6 text-justify"
               data-aos="fade-up"
               data-aos-duration="1000"
             >
-              We pride ourselves on our precision manufacturing processes and adherence to stringent industry standards. Our products are designed to ensure durability, reliability, and optimal performance in a wide array of applications. Whether it's fluid handling, structural support, or specialized industrial needs, our solutions deliver the robustness and efficiency required to excel in challenging environments.
+              Whether small or big, we respect all our patrons and every care is
+              taken to offer them a hassle-free and a pleasant business
+              experience. We also deliver our orders in economic order
+              quantities as well as in bulk and as a rule, our services and
+              product’s quality always remains the same, apart from quantity or
+              specification desired. In order to meet the off-hand need of our
+              patron, we keep a wide range of standard items of outlets, pipe
+              fittings, flanges, outlets and pipes from sizes ½” to 24”.
+              Patrons’ need for special items is created with finest standards
+              at a specific time. Equipped with this strength, Hariom Steel is
+              mounting nationally and internationally to place it in the top
+              position.
             </p>
-            <ul
+            {/* <ul
               className="list-none space-y-2 mb-6"
               data-aos="fade-up"
               data-aos-duration="1000"
@@ -59,7 +83,7 @@ const AboutCompany = () => {
                   Your reliable partner in industrial solutions.
                 </span>
               </li>
-            </ul>
+            </ul> */}
             <button
               className="bg-primary hover:bg-tertiary text-fontPrimary font-bold py-2 px-4 rounded"
               onClick={() => {
@@ -76,6 +100,7 @@ const AboutCompany = () => {
           >
             <Tilt className="Tilt" options={{ max: 25, scale: 1.05 }}>
               <img
+              width={600}
                 src={factory}
                 alt="Industrial plant with chimneys emitting smoke"
                 className="rounded-lg shadow-md lg:h-128 object-cover"
@@ -84,7 +109,6 @@ const AboutCompany = () => {
           </div>
         </div>
       </div>
-
     </>
   );
 };

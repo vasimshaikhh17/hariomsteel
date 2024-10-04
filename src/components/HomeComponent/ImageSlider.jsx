@@ -4,7 +4,7 @@ import banner from "../../assets/images/Pipe-Fitting-banner.png";
 import banner1 from "../../assets/images/banner32.jpg";
 // import banner2 from "../../assets/images/steel-banner.jpg";
 import banner2 from "../../assets/images/banner22.jpg";
-import banner3 from "../../assets/images/pipes-banner.jpg";
+// import banner3 from "../../assets/images/sliderpipe (2).jpg";
 import banner4 from "../../assets/images/banner4.jpg";
 import banner5 from "../../assets/images/banner5.jpg";
 
@@ -42,15 +42,15 @@ const ImageSlider = () => {
         { text: "Certifications", link: "/certifications" },
       ],
     },
-    {
-      image: banner3,
-      title: "Global Reach",
-      description: "With a global presence, we are equipped to handle projects of any scale, anywhere in the world.",
-      buttons: [
-        { text: "Global Network", link: "/network" },
-        { text: "Get in Touch", link: "/contact" },
-      ],
-    },
+    // {
+    //   image: banner3,
+    //   title: "Global Reach",
+    //   description: "With a global presence, we are equipped to handle projects of any scale, anywhere in the world.",
+    //   buttons: [
+    //     { text: "Global Network", link: "/network" },
+    //     { text: "Get in Touch", link: "/contact" },
+    //   ],
+    // },
     {
       image: banner4,
       title: "Sustainable Practices",

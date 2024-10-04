@@ -8,7 +8,7 @@ import {
   FaTag,
 } from "react-icons/fa"; // Importing icons from react-icons
 import ab1 from "../../assets/images/aboutus.jpg";
-import gst from "../../assets/images/HARIOM_GST-pages.webp";
+import certi from "../../assets/images/certi.png";
 import Layout from "../common/Layout";
 
 const AboutUs = () => {
@@ -26,40 +26,78 @@ const AboutUs = () => {
           </div>
           <div className="md:w-1/2 mt-8 md:mt-0 md:ml-8">
             <h1 className="text-4xl font-bold mb-4">About Our Industry</h1>
-            <section className="text-lg mb-4">
-              About Hariom Steel
+            <section className="text-lg mb-4 text-justify">
               <p>
-                Founded in 2023, Hariom Steel has grown into a renowned
-                manufacturer, supplier, and exporter of high-quality industrial
-                products. We specialize in a diverse array of products including
-                pipes, tubes, flanges, pipe/tube fittings, fasteners, plates,
-                gaskets, and round bars.
-                {/* With our ISO 9001:2015 certification from TUV Nord India, we uphold the highest standards of quality across all our offerings. */}
+                HARIOM STEEL is an ISO 9001 : 2015 Certified Company.
+                Established in the year 2023 Hariom Steel is one of the
+                prominent manufacturer supplier, and exporter of Fasteners and
+                fittings in Various Ferrous and Non-Ferrous grade of Stainless
+                Steel and High Nickel Alloys. We maintain total control on the
+                quality of goods and use the latest technology to manufacture
+                our products. We are one of the professional and upcoming
+                Exporters, Suppliers and Manufacturers of Nickel Alloys,
+                Titanium Alloys, Stainless Steel, Alloy Steel and Carbon Steel
+                products. We have a large and accomplished stock of Fasteners
+                and Fittings in different Sizes and Forms. We work with the key
+                purpose of serving maximum patron satisfaction and are dedicated
+                to steadily enhance the quality of our services & products, to
+                create worth for our Patrons.
               </p>
               <br />
-              <p>
-                Quality is the cornerstone of our operations. We adhere strictly
-                to ASME, ASTM, and other national and international standards,
-                ensuring that every product meets the most rigorous quality and
-                performance criteria.
+              <p className="text-justify">
+                We supply pipes, tubes, fittings and flanges of major approved
+                brands like MEGA ITALY, MELESI ITALY, ULMA FORGE, METALFAR,
+                BEKAN JAPAN, ERNE FITTINGS, AND many more. Being an ISO
+                certified Company our quality control team ensures that all the
+                products are manufactured as per standard requirement referring
+                to (ASME and ASTM) and all other national and international
+                standards.
               </p>
               <br />
-              <p>
-                At Hariom Steel, we believe in fostering a supportive and
-                innovative work environment. Our team of experts and skilled
-                laborers are dedicated to producing sustainable and cutting-edge
-                solutions that keep pace with the ever-evolving market trends.
-                Driven by enthusiasm and a commitment to excellence, our
-                workforce consistently delivers products that offer exceptional
-                value and reliability to our global clientele.
+              <p className="text-justify">
+                We follow a friendly work environment, where our employees are
+                able to learn better. Our experts and skilled laborers help us
+                build products that are sustainable in the ever-changing market
+                trends. Our ever-ready team is highly enthusiastic and motivated
+                to create products that offer exceptional value for money.
               </p>
             </section>
           </div>
         </div>
 
         {/* Why Choose Us Section */}
-      
+
         {/* GST Registration Section */}
+
+        <section className="mb-10">
+          <div className="text-3xl font-extrabold text-fontPrimary text-center mb-10  bg-primary">
+            <h1 className="pb-5 pt-5">Mission & Vision</h1>
+          </div>
+
+          <div className="customContainer  px-4  flex flex-col md:flex-row justify-around">
+            <div className=" md:ml-8 md:mt-4">
+              {/* <h2 className="text-2xl font-extrabold text-fontDefault mb-4 text-center">
+                Our Mission & Vision
+              </h2> */}
+         
+              <p className="text-lg  mb-4">
+                <b>Our Mission </b>: To supply high-quality steel products, providing
+                ancillary services and solutions to worldwide clients while
+                using innovative technologies which are environment-friendly to
+                motivate our employees to focus on continuous improvement,
+                highest business standards, work ethics, and corporate
+                citizenship. We are committed to exceeding the expectations of
+                our customers by providing high-quality products & services. We
+                aim to excel in everything we do.
+              </p>
+              <p className="text-lg  mb-4">
+               <b>Our Vision </b> : To attain a leadership position in the Steel
+                Industry through performance excellence by providing
+                cost-effective metal packaging products.
+              </p>
+            </div>
+          </div>
+        </section>
 
         <section className="mb-10">
           <div className="text-3xl font-extrabold text-fontPrimary text-center mb-10  bg-primary">
@@ -69,7 +107,7 @@ const AboutUs = () => {
           <div className="customContainer  px-4  flex flex-col md:flex-row justify-around">
             <div className="md:w-1/3 mb-8 md:mb-0">
               <img
-                src={gst}
+                src={certi}
                 alt="GST Registration Certificate"
                 className="w-full h-auto rounded-lg box-shadow2"
               />
@@ -90,7 +128,6 @@ const AboutUs = () => {
             </div>
           </div>
         </section>
-
 
         <section className="py-12 bg-secondary">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -174,7 +211,6 @@ const AboutUs = () => {
             </div>
           </div>
         </section>
-
       </div>
     </Layout>
   );
